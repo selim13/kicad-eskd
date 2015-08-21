@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMS1117-3.3
+D AMS1117-3.3, 1A Low Dropout Voltage Regulator, Fixed Output 3.3V
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001635.pdf
+$ENDCMP
+#
+$CMP LD2981*U50TR
+D LD2981*U50TR, 50 mA Low Dropout Voltage Regulator, Fixed Output 5V, SOT-89-3
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001635.pdf
+$ENDCMP
+#
+#End Doc Library

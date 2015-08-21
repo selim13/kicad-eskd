@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC847
+D BC847, 45V Vce, 0.1A Ic, general-purpose, NPN, SOT-23
+F http://www.nxp.com/documents/data_sheet/BC847_SER.pdf
+$ENDCMP
+#
+#End Doc Library

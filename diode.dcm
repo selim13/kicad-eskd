@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N5819
+D 1.0A SCHOTTKY BARRIER RECTIFIER
+F http://www.diodes.com/datasheets/ds23001.pdf
+$ENDCMP
+#
+#End Doc Library
