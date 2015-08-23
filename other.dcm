@@ -1,7 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP DS1338
-F transistors/bipolar/*.*
-$ENDCMP
-#
 #End Doc Library
