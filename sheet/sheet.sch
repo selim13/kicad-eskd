@@ -32,7 +32,7 @@ F 1 "C" V 800 1000 50  0000 C CNN
 F 2 "" H 950 1000 60  0000 C CNN
 F 3 "" H 950 1000 60  0000 C CNN
 	1    950  1000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C_EL C?
@@ -43,7 +43,7 @@ F 1 "C_EL" V 1700 1000 50  0000 C CNN
 F 2 "" H 1850 1000 60  0000 C CNN
 F 3 "" H 1850 1000 60  0000 C CNN
 	1    1850 1000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Fuse FU?
@@ -54,7 +54,7 @@ F 1 "Fuse" H 1650 1950 50  0000 C CNN
 F 2 "" H 1700 1850 60  0000 C CNN
 F 3 "" H 1650 2050 60  0000 C CNN
 	1    1650 2050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
@@ -65,7 +65,7 @@ F 1 "R" V 1550 2550 50  0000 C CNN
 F 2 "" H 1650 2550 60  0000 C CNN
 F 3 "" H 1650 2550 60  0000 C CNN
 	1    1650 2550
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L L L?
@@ -76,7 +76,7 @@ F 1 "L" H 1150 3775 50  0000 C CNN
 F 2 "" H 1075 3850 60  0000 C CNN
 F 3 "" H 1075 3850 60  0000 C CNN
 	1    1150 3850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L L3_Ferrite L?
@@ -87,7 +87,7 @@ F 1 "L3_Ferrite" H 1975 3425 50  0000 C CNN
 F 2 "" H 1950 3500 60  0000 C CNN
 F 3 "" H 1950 3500 60  0000 C CNN
 	1    1950 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L L_Ferrite L?
@@ -98,7 +98,7 @@ F 1 "L_Ferrite" H 1150 3425 50  0000 C CNN
 F 2 "" H 1075 3500 60  0000 C CNN
 F 3 "" H 1075 3500 60  0000 C CNN
 	1    1150 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Polyfuse FU?
@@ -109,7 +109,7 @@ F 1 "Polyfuse" H 1050 1850 50  0000 C CNN
 F 2 "" H 1050 2050 60  0000 C CNN
 F 3 "" H 1050 2050 60  0000 C CNN
 	1    1050 2050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Thermistor RK?
@@ -120,7 +120,7 @@ F 1 "Thermistor" H 1050 2350 50  0000 C CNN
 F 2 "" H 1050 2550 60  0000 C CNN
 F 3 "" H 1050 2550 60  0000 C CNN
 	1    1050 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Trim R?
@@ -131,7 +131,7 @@ F 1 "R_Trim" H 1050 2900 50  0000 C CNN
 F 2 "" H 1050 3050 60  0000 C CNN
 F 3 "" H 1050 3050 60  0000 C CNN
 	1    1050 3050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Var R?
@@ -142,7 +142,7 @@ F 1 "R_Var" H 1650 2950 50  0000 C CNN
 F 2 "" H 1650 3050 60  0000 C CNN
 F 3 "" H 1650 3050 60  0000 C CNN
 	1    1650 3050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Button2 SB?
@@ -153,7 +153,7 @@ F 1 "Button2" H 3500 1025 60  0001 C CNN
 F 2 "" H 3500 1150 60  0000 C CNN
 F 3 "" H 3500 1150 60  0000 C CNN
 	1    3500 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Button SB?
@@ -164,7 +164,7 @@ F 1 "Button" H 3050 1125 60  0001 C CNN
 F 2 "" H 3050 1200 60  0000 C CNN
 F 3 "" H 3050 1200 60  0000 C CNN
 	1    3050 1200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper S?
@@ -175,7 +175,7 @@ F 1 "Jumper" H 3050 1275 60  0001 C CNN
 F 2 "" H 3050 1400 60  0000 C CNN
 F 3 "" H 3050 1400 60  0000 C CNN
 	1    3050 1400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper3 S?
@@ -186,7 +186,7 @@ F 1 "Jumper3" H 3500 1350 60  0001 C CNN
 F 2 "" H 3675 1500 60  0000 C CNN
 F 3 "" H 3675 1500 60  0000 C CNN
 	1    3500 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 800  750  0    60   ~ 0
 RLC
@@ -203,7 +203,7 @@ F 1 "Diode" H 3050 2300 60  0000 C CNN
 F 2 "" H 3050 2200 60  0000 C CNN
 F 3 "" H 3050 2200 60  0000 C CNN
 	1    3050 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Schottky_Diode VD?
@@ -214,7 +214,7 @@ F 1 "Schottky_Diode" H 3700 2300 60  0000 C CNN
 F 2 "" H 3700 2200 60  0000 C CNN
 F 3 "" H 3700 2200 60  0000 C CNN
 	1    3700 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L NMOS VT?
@@ -225,7 +225,7 @@ F 1 "NMOS" H 4475 2875 60  0000 R CNN
 F 2 "" H 4300 2700 60  0000 C CNN
 F 3 "" H 4300 2700 60  0000 C CNN
 	1    4300 2700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L PMOS VT?
@@ -236,7 +236,7 @@ F 1 "PMOS" H 5175 2875 60  0000 R CNN
 F 2 "" H 5000 2700 60  0000 C CNN
 F 3 "" H 5000 2700 60  0000 C CNN
 	1    5000 2700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L NPN VT?
@@ -247,7 +247,7 @@ F 1 "NPN" H 3050 2800 60  0000 R CNN
 F 2 "" H 3050 2650 60  0000 C CNN
 F 3 "" H 3050 2650 60  0000 C CNN
 	1    3050 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L PNP VT?
@@ -258,7 +258,7 @@ F 1 "PNP" H 3700 2800 60  0000 R CNN
 F 2 "" H 3700 2650 60  0000 C CNN
 F 3 "" H 3700 2650 60  0000 C CNN
 	1    3700 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L REG DA?
@@ -269,7 +269,7 @@ F 1 "REG" H 5200 875 60  0000 C CNN
 F 2 "" H 5200 1150 60  0000 C CNN
 F 3 "" H 5200 1150 60  0000 C CNN
 	1    5200 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L REG2 DA?
@@ -280,7 +280,7 @@ F 1 "REG2" H 5350 2100 60  0000 C CNN
 F 2 "" H 5200 1850 60  0000 C CNN
 F 3 "" H 5200 1850 60  0000 C CNN
 	1    5200 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L REG_ADJ DA?
@@ -291,7 +291,7 @@ F 1 "REG_ADJ" H 6600 875 60  0000 C CNN
 F 2 "" H 6600 1150 60  0000 C CNN
 F 3 "" H 6600 1150 60  0000 C CNN
 	1    6600 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L REG_ADJ2 DA?
@@ -302,7 +302,7 @@ F 1 "REG_ADJ2" H 6800 2100 60  0000 C CNN
 F 2 "" H 6650 1850 60  0000 C CNN
 F 3 "" H 6650 1850 60  0000 C CNN
 	1    6650 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 4750 750  0    60   ~ 0
 Regulators
@@ -315,7 +315,7 @@ F 1 "Battery" V 5725 2750 60  0000 C CNN
 F 2 "" H 5850 2750 60  0000 C CNN
 F 3 "" H 5850 2750 60  0000 C CNN
 	1    5850 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Battery2 GB?
@@ -326,7 +326,7 @@ F 1 "Battery2" V 6175 2850 60  0000 C CNN
 F 2 "" H 6300 2850 60  0000 C CNN
 F 3 "" H 6300 2850 60  0000 C CNN
 	1    6300 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Crystal Z?
@@ -337,7 +337,7 @@ F 1 "Crystal" V 6600 2825 60  0000 C CNN
 F 2 "" H 6800 2800 60  0000 C CNN
 F 3 "" H 6800 2800 60  0000 C CNN
 	1    6800 2800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 5700 2500 0    60   ~ 0
 Other
@@ -350,7 +350,7 @@ F 1 "OPAMP" H 8450 850 60  0000 C CNN
 F 2 "" H 8450 1100 60  0000 C CNN
 F 3 "" H 8450 1100 60  0000 C CNN
 	1    8450 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L OPAMP-2 DA?
@@ -361,7 +361,7 @@ F 1 "OPAMP-2" H 10100 850 60  0000 C CNN
 F 2 "" H 10100 1050 60  0000 C CNN
 F 3 "" H 10100 1050 60  0000 C CNN
 	1    10100 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L OPAMP-2 DA?
@@ -372,7 +372,7 @@ F 1 "OPAMP-2" H 10100 2050 60  0000 C CNN
 F 2 "" H 10100 2100 60  0000 C CNN
 F 3 "" H 10100 2100 60  0000 C CNN
 	2    10100 2350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 7750 750  0    60   ~ 0
 Opamps
@@ -380,12 +380,12 @@ $Comp
 L LED HL?
 U 1 1 55D9F494
 P 950 4450
-F 0 "HL?" H 850 4600 60  0000 C CNN
-F 1 "LED" H 1075 4600 60  0000 C CNN
+F 0 "HL?" H 950 4300 60  0000 C CNN
+F 1 "LED" H 950 4700 60  0000 C CNN
 F 2 "" H 950 4450 60  0000 C CNN
 F 3 "" H 950 4450 60  0000 C CNN
 	1    950  4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 800  4100 0    60   ~ 0
 Indicators
@@ -398,7 +398,7 @@ F 1 "CONN_02_F" H 3200 4250 60  0001 C CNN
 F 2 "" H 2850 4450 60  0000 C CNN
 F 3 "" H 2850 4450 60  0000 C CNN
 	1    2850 4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_02_M XP?
@@ -409,7 +409,7 @@ F 1 "CONN_02_M" H 4000 4250 60  0001 C CNN
 F 2 "" H 3650 4450 60  0000 C CNN
 F 3 "" H 3650 4450 60  0000 C CNN
 	1    3650 4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 2850 4100 0    60   ~ 0
 Connectors
@@ -422,7 +422,7 @@ F 1 "PAD" H 3100 4800 60  0000 C CNN
 F 2 "" H 2850 4900 60  0000 C CNN
 F 3 "" H 2850 4900 60  0000 C CNN
 	1    2850 4900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L NMOS_Circle VT?
@@ -433,7 +433,7 @@ F 1 "NMOS_Circle" H 4650 3400 60  0000 R CNN
 F 2 "" H 4275 3225 60  0000 C CNN
 F 3 "" H 4275 3225 60  0000 C CNN
 	1    4300 3200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L PMOS_Circle VT?
@@ -444,7 +444,7 @@ F 1 "PMOS_Circle" H 5350 3400 60  0000 R CNN
 F 2 "" H 4975 3225 60  0000 C CNN
 F 3 "" H 4975 3225 60  0000 C CNN
 	1    5000 3200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L NPN_Circle VT?
@@ -455,7 +455,7 @@ F 1 "NPN_Circle" H 3050 3300 60  0000 R CNN
 F 2 "" H 3050 3150 60  0000 C CNN
 F 3 "" H 3050 3150 60  0000 C CNN
 	1    3050 3150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L PNP_Circle VT?
@@ -466,7 +466,7 @@ F 1 "PNP_Circle" H 3700 3300 60  0000 R CNN
 F 2 "" H 3700 3150 60  0000 C CNN
 F 3 "" H 3700 3150 60  0000 C CNN
 	1    3700 3150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C_Pol C?
@@ -477,7 +477,7 @@ F 1 "C_Pol" V 1250 1000 50  0000 C CNN
 F 2 "" H 1400 1000 60  0000 C CNN
 F 3 "" H 1400 1000 60  0000 C CNN
 	1    1400 1000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C_EL_Nonpol C?
@@ -488,7 +488,7 @@ F 1 "C_EL_Nonpol" V 2150 1000 50  0000 C CNN
 F 2 "" H 2300 1000 60  0000 C CNN
 F 3 "" H 2300 1000 60  0000 C CNN
 	1    2300 1000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C_Var C?
@@ -499,7 +499,7 @@ F 1 "C_Var" V 800 1500 50  0000 C CNN
 F 2 "" H 950 1500 60  0000 C CNN
 F 3 "" H 950 1500 60  0000 C CNN
 	1    950  1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C_Trim C?
@@ -510,7 +510,7 @@ F 1 "C_Trim" V 1250 1500 50  0000 C CNN
 F 2 "" H 1400 1500 60  0000 C CNN
 F 3 "" H 1400 1500 60  0000 C CNN
 	1    1400 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_0,125W R?
@@ -521,6 +521,17 @@ F 1 "R_0,125W" V 2150 2050 50  0000 C CNN
 F 2 "" H 2250 2050 60  0000 C CNN
 F 3 "" H 2250 2050 60  0000 C CNN
 	1    2250 2050
-	0    1    1    0
+	0    1    1    0   
+$EndComp
+$Comp
+L L3 L?
+U 1 1 55E02239
+P 1950 3850
+F 0 "L?" H 1950 3975 50  0000 C CNN
+F 1 "L3" H 1950 3775 50  0000 C CNN
+F 2 "" H 1950 3850 60  0000 C CNN
+F 3 "" H 1950 3850 60  0000 C CNN
+	1    1950 3850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

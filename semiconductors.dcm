@@ -4,15 +4,7 @@ $CMP NMOS
 F transistors/bipolar/*.*
 $ENDCMP
 #
-$CMP NMOS_CIRCLE
-F transistors/bipolar/*.*
-$ENDCMP
-#
 $CMP NPN
-F transistors/bipolar/*.*
-$ENDCMP
-#
-$CMP NPN_CIRCLE
 F transistors/bipolar/*.*
 $ENDCMP
 #
@@ -20,15 +12,7 @@ $CMP PMOS
 F transistors/bipolar/*.*
 $ENDCMP
 #
-$CMP PMOS_CIRCLE
-F transistors/bipolar/*.*
-$ENDCMP
-#
 $CMP PNP
-F transistors/bipolar/*.*
-$ENDCMP
-#
-$CMP PNP_CIRCLE
 F transistors/bipolar/*.*
 $ENDCMP
 #
