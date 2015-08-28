@@ -1,5 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Backward_Diode
+D Backward diode
+$ENDCMP
+#
+$CMP DIAC
+D DIAC
+$ENDCMP
+#
+$CMP Diode_Double-sided
+D Double sided diode
+$ENDCMP
+#
+$CMP Dynistor
+D Dynistor
+$ENDCMP
+#
 $CMP NMOS
 F transistors/bipolar/*.*
 $ENDCMP
@@ -14,6 +30,22 @@ $ENDCMP
 #
 $CMP PNP
 F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP Tunnel_Diode
+D Tunnel diode
+$ENDCMP
+#
+$CMP Varicap
+D Varicap
+$ENDCMP
+#
+$CMP Zener_Diode
+D Zener diode
+$ENDCMP
+#
+$CMP Zener_Diode_Double-anode
+D Double anode Zener diode
 $ENDCMP
 #
 #End Doc Library

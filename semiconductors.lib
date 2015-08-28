@@ -1,6 +1,62 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# Backward_Diode
+#
+DEF Backward_Diode VD 0 40 N N 1 F N
+F0 "VD" 0 -100 60 H V C CNN
+F1 "Backward_Diode" 0 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -50 0  50 0 N
+P 2 0 1 0  50 50  50 -50 N
+P 2 0 1 0  75 -50  25 -50 N
+P 2 0 1 0  75 50  25 50 N
+P 4 0 1 0  -50 50  -50 -50  50 0  -50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DIAC
+#
+DEF DIAC VD 0 40 N N 1 F N
+F0 "VD" 0 -175 60 H V C CNN
+F1 "DIAC" 0 175 60 H V C CNN
+F2 "" 0 -50 60 H V C CNN
+F3 "" 0 -50 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -50 -50  50 -50 N
+P 2 0 1 0  -50 0  -50 100 N
+P 2 0 1 0  0 -100  0 100 N
+P 2 0 1 0  50 0  50 -100 N
+P 2 0 1 0  50 50  -50 50 N
+P 4 0 1 0  -50 0  -50 -100  50 -50  -50 0 N
+P 4 0 1 0  50 0  -50 50  50 100  50 0 N
+X K 1 150 50 100 L 50 50 1 1 P
+X A 2 -150 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Diode
 #
 DEF Diode VD 0 40 N N 1 F N
@@ -9,14 +65,72 @@ F1 "Diode" 0 100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- MiniMELF_Diode
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
 $ENDFPLIST
 DRAW
 P 2 0 1 0  -50 0  50 0 N
-P 2 0 1 0  -50 50  -50 -50 N
-P 5 0 1 0  -50 0  50 50  50 -50  -50 0  -50 0 N
-X A A 150 0 100 L 50 50 1 1 I
-X K K -150 0 100 R 50 50 1 1 I
+P 2 0 1 0  50 50  50 -50 N
+P 4 0 1 0  -50 50  -50 -50  50 0  -50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_Double-sided
+#
+DEF Diode_Double-sided VD 0 40 N N 1 F N
+F0 "VD" 0 -175 60 H V C CNN
+F1 "Diode_Double-sided" 0 175 60 H V C CNN
+F2 "" 0 -50 60 H V C CNN
+F3 "" 0 -50 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -50 0  -50 100 N
+P 2 0 1 0  50 0  50 -100 N
+P 4 0 1 0  -50 0  -50 -100  50 -50  -50 0 N
+P 4 0 1 0  50 0  -50 50  50 100  50 0 N
+X K 1 150 50 100 L 50 50 1 1 P
+X A 2 -150 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Dynistor
+#
+DEF Dynistor VD 0 40 N N 1 F N
+F0 "VD" 0 -100 60 H V C CNN
+F1 "Dynistor" 0 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -50 0  50 0 N
+P 2 0 1 0  0 -50  0 50 N
+P 2 0 1 0  50 50  50 -50 N
+P 4 0 1 0  -50 50  -50 -50  50 0  -50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -204,16 +318,131 @@ F1 "Schottky_Diode" 0 100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- MiniMELF_Diode
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
 $ENDFPLIST
 DRAW
-P 2 0 1 0  -50 -50  -75 -50 N
 P 2 0 1 0  -50 0  50 0 N
-P 2 0 1 0  -50 50  -50 -50 N
-P 2 0 1 0  -50 50  -25 50 N
-P 5 0 1 0  -50 0  50 50  50 -50  -50 0  -50 0 N
-X A A 150 0 100 L 50 50 1 1 I
-X K K -150 0 100 R 50 50 1 1 I
+P 2 0 1 0  50 50  50 -50 N
+P 3 0 1 0  50 -50  25 -50  25 -25 N
+P 3 0 1 0  50 50  75 50  75 25 N
+P 4 0 1 0  -50 50  -50 -50  50 0  -50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Tunnel_Diode
+#
+DEF Tunnel_Diode VD 0 40 N N 1 F N
+F0 "VD" 0 -100 60 H V C CNN
+F1 "Tunnel_Diode" 0 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -50 0  50 0 N
+P 2 0 1 0  50 -50  25 -50 N
+P 2 0 1 0  50 50  25 50 N
+P 2 0 1 0  50 50  50 -50 N
+P 4 0 1 0  -50 50  -50 -50  50 0  -50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Varicap
+#
+DEF Varicap VD 0 40 N N 1 F N
+F0 "VD" 0 -100 60 H V C CNN
+F1 "Varicap" 0 100 60 H V C CNN
+F2 "" -50 0 60 H V C CNN
+F3 "" -50 0 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 0  0 0 N
+P 2 0 1 0  0 50  0 -50 N
+P 2 0 1 0  40 -50  40 45 N
+P 4 0 1 0  -100 50  -100 -50  0 0  -100 50 N
+X K 1 150 0 110 L 50 50 1 1 I
+X A 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Zener_Diode
+#
+DEF Zener_Diode VD 0 40 N N 1 F N
+F0 "VD" 0 -100 60 H V C CNN
+F1 "Zener_Diode" 0 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -50 0  50 0 N
+P 2 0 1 0  50 -50  25 -50 N
+P 2 0 1 0  50 50  50 -50 N
+P 2 0 1 0  50 50  75 50 N
+P 4 0 1 0  -50 50  -50 -50  50 0  -50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Zener_Diode_Double-anode
+#
+DEF Zener_Diode_Double-anode VD 0 40 N N 1 F N
+F0 "VD" 0 -100 60 H V C CNN
+F1 "Zener_Diode_Double-anode" 0 100 60 H V C CNN
+F2 "" -50 0 60 H V C CNN
+F3 "" -50 0 60 H V C CNN
+$FPLIST
+ Diode_*
+ *_Diode
+ *_DIODE
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 0  0 0 N
+P 2 0 1 0  0 -50  -25 -50 N
+P 2 0 1 0  0 0  100 0 N
+P 2 0 1 0  0 50  0 -50 N
+P 2 0 1 0  0 50  25 50 N
+P 4 0 1 0  -100 50  -100 -50  0 0  -100 50 N
+P 4 0 1 0  0 0  100 50  100 -50  0 0 N
+X K 1 200 0 100 L 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
