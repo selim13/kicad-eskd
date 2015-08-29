@@ -2,18 +2,27 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP Backward_Diode
 D Backward diode
+K backward diode, обращенный диод
 $ENDCMP
 #
 $CMP DIAC
 D DIAC
+K DIAC, диак, динистор
 $ENDCMP
 #
-$CMP Diode_Double-sided
-D Double sided diode
+$CMP DIAC2
+D DIAC
+K DIAC, диак, динистор
+$ENDCMP
+#
+$CMP Diode
+D Diode
+K diode, диод
 $ENDCMP
 #
 $CMP Dynistor
 D Dynistor
+K dynistor, динистор
 $ENDCMP
 #
 $CMP NMOS
@@ -32,20 +41,49 @@ $CMP PNP
 F transistors/bipolar/*.*
 $ENDCMP
 #
+$CMP Schottky_Diode
+D Schottky diode
+K Schottky diode, диод Шоттки
+$ENDCMP
+#
+$CMP TRIAC
+D TRIAC
+K TRIAC, симистор
+$ENDCMP
+#
+$CMP TRIAC2
+D TRIAC
+K TRIAC, симистор
+$ENDCMP
+#
+$CMP Thyristor_Anode
+D Anode Gate Thyristor
+K AGT, тринистор
+$ENDCMP
+#
+$CMP Thyristor_Cathode
+D Silicon-controlled rectifier
+K SCR, тринистор
+$ENDCMP
+#
 $CMP Tunnel_Diode
 D Tunnel diode
+K Tunnel diode, Туннельный диод
 $ENDCMP
 #
 $CMP Varicap
 D Varicap
+K varicap, варикап
 $ENDCMP
 #
 $CMP Zener_Diode
 D Zener diode
+K zener diode, стабилитрон
 $ENDCMP
 #
 $CMP Zener_Diode_Double-anode
 D Double anode Zener diode
+K zener diode, стабилитрон
 $ENDCMP
 #
 #End Doc Library
