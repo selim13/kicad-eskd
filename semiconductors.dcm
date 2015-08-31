@@ -10,11 +10,6 @@ D DIAC
 K DIAC, диак, динистор
 $ENDCMP
 #
-$CMP DIAC2
-D DIAC
-K DIAC, диак, динистор
-$ENDCMP
-#
 $CMP Diode
 D Diode
 K diode, диод
@@ -25,20 +20,86 @@ D Dynistor
 K dynistor, динистор
 $ENDCMP
 #
-$CMP NMOS
-F transistors/bipolar/*.*
+$CMP NJFET
+D N-JFET
+K JFET, n-channel junction gate field-effect transistor, n-канальный полевой транзистор
+$ENDCMP
+#
+$CMP NJFET_Circle
+D N-JFET
+K JFET, n-channel junction gate field-effect transistor, n-канальный полевой транзистор
+$ENDCMP
+#
+$CMP NMOSFET
+D Enhancement-mode N-MOSFET
+K MOSFET, n-channel enhancement-mode metal-oxide-semiconductor field-effect transistor, МОП, n-канальный полевой транзистор с изолированным затвором обогашенного типа
+$ENDCMP
+#
+$CMP NMOSFET_Circle
+D Enhancement-mode N-MOSFET
+K MOSFET, n-channel enhancement-mode metal-oxide-semiconductor field-effect transistor, МОП, n-канальный полевой транзистор с изолированным затвором обогашенного типа
+$ENDCMP
+#
+$CMP NMOSFET_DE
+D Depletion-mode N-MOSFET
+K MOSFET, n-channel depletion-mode metal-oxide-semiconductor field-effect transistor, МОП, n-канальный полевой транзистор с изолированным затвором обедненного типа
+$ENDCMP
+#
+$CMP NMOSFET_DE_Circle
+D Depletion-mode N-MOSFET
+K MOSFET, n-channel depletion-mode metal-oxide-semiconductor field-effect transistor, МОП, n-канальный полевой транзистор с изолированным затвором обедненного типа
 $ENDCMP
 #
 $CMP NPN
+D NPN BJT
+K BJT, NPN bipolar junction transitor, NPN биполярный транзистор
 F transistors/bipolar/*.*
 $ENDCMP
 #
-$CMP PMOS
-F transistors/bipolar/*.*
+$CMP NPN_Circle
+D NPN BJT
+K BJT, NPN bipolar junction transitor, NPN биполярный транзистор
+$ENDCMP
+#
+$CMP PJFET
+D P-JFET
+K JFET, p-channel junction gate field-effect transistor, p-канальный полевой транзистор
+$ENDCMP
+#
+$CMP PJFET_Circle
+D P-JFET
+K JFET, p-channel junction gate field-effect transistor, p-канальный полевой транзистор
+$ENDCMP
+#
+$CMP PMOSFET
+D Enhancement-mode P-MOSFET
+K MOSFET, p-channel enhancement-mode metal-oxide-semiconductor field-effect transistor, МОП, p-канальный полевой транзистор с изолированным затвором обогашенного типа
+$ENDCMP
+#
+$CMP PMOSFET_Circle
+D Enhancement-mode P-MOSFET
+K MOSFET, p-channel enhancement-mode metal-oxide-semiconductor field-effect transistor, МОП, p-канальный полевой транзистор с изолированным затвором обогашенного типа
+$ENDCMP
+#
+$CMP PMOSFET_DE
+D Depletion-mode P-MOSFET
+K Depletion-mode P-MOSFET, p-канальный полевой транзистор с изолированным затвором обедненного типа
+$ENDCMP
+#
+$CMP PMOSFET_DE_Circle
+D Depletion-mode P-MOSFET
+K Depletion-mode P-MOSFET, p-канальный полевой транзистор с изолированным затвором обедненного типа
 $ENDCMP
 #
 $CMP PNP
+D PNP BJT
+K BJT, PNP bipolar junction transitor, PNP биполярный транзистор
 F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PNP_Circle
+D PNP BJT
+K BJT, PNP bipolar junction transitor, PNP биполярный транзистор
 $ENDCMP
 #
 $CMP Schottky_Diode
@@ -47,11 +108,6 @@ K Schottky diode, диод Шоттки
 $ENDCMP
 #
 $CMP TRIAC
-D TRIAC
-K TRIAC, симистор
-$ENDCMP
-#
-$CMP TRIAC2
 D TRIAC
 K TRIAC, симистор
 $ENDCMP
