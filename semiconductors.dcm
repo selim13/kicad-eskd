@@ -15,9 +15,19 @@ D Diode
 K diode, диод
 $ENDCMP
 #
+$CMP Diode_Bridge
+D Diode bridge
+K diode bridge rectifier, диодный мост
+$ENDCMP
+#
 $CMP Dynistor
 D Dynistor
 K dynistor, динистор
+$ENDCMP
+#
+$CMP LED
+D LED
+K LED, light emission diode, светодиод
 $ENDCMP
 #
 $CMP NJFET
@@ -100,6 +110,11 @@ $ENDCMP
 $CMP PNP_Circle
 D PNP BJT
 K BJT, PNP bipolar junction transitor, PNP биполярный транзистор
+$ENDCMP
+#
+$CMP Photo_Diode
+D Photo Diode
+K Photo Diode, фотодиод
 $ENDCMP
 #
 $CMP Schottky_Diode
