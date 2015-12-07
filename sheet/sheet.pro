@@ -1,4 +1,4 @@
-update=23.08.2015 15:31:40
+update=Пн. 07 дек. 2015 21:56:58
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,12 +29,5 @@ version=1
 version=1
 LibDir=..
 [eeschema/libraries]
-LibName1=connectors
-LibName2=indicators
-LibName3=opamps
-LibName4=other
-LibName5=power
-LibName6=regulators
-LibName7=rlc
-LibName8=semiconductors
-LibName9=switches
+LibName1=power
+LibName2=generic
