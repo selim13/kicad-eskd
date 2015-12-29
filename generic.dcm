@@ -122,6 +122,11 @@ D Schottky diode
 K Schottky diode, диод Шоттки
 $ENDCMP
 #
+$CMP Speaker
+D Speaker
+K speaker, громкоговоритель, динамик
+$ENDCMP
+#
 $CMP TRIAC
 D TRIAC
 K TRIAC, симистор
