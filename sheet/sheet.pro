@@ -1,4 +1,4 @@
-update=Пн. 07 дек. 2015 21:56:58
+update=Сб. 23 янв. 2016 23:06:01
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,3 +31,13 @@ LibDir=..
 [eeschema/libraries]
 LibName1=power
 LibName2=generic
+[schematic_editor]
+version=1
+PageLayoutDescrFile=worksheet-a4.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

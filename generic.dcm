@@ -117,6 +117,20 @@ D Photo Diode
 K Photo Diode, фотодиод
 $ENDCMP
 #
+$CMP Relay_Changeover
+K SPDT, контакт переключающий
+$ENDCMP
+#
+$CMP Schmitt_Trigger
+D Schmitt Trigger
+K schmitt trigger, триггера Шмита
+$ENDCMP
+#
+$CMP Schmitt_Trigger_2
+D Schmitt Trigger
+K schmitt trigger, триггера Шмита
+$ENDCMP
+#
 $CMP Schottky_Diode
 D Schottky diode
 K Schottky diode, диод Шоттки
@@ -125,6 +139,18 @@ $ENDCMP
 $CMP Speaker
 D Speaker
 K speaker, громкоговоритель, динамик
+$ENDCMP
+#
+$CMP Switch
+K NO SPST
+$ENDCMP
+#
+$CMP Switch_Changeover
+K SPDT, контакт переключающий
+$ENDCMP
+#
+$CMP Switch_NC
+K NC SPST, контакт размыкающий
 $ENDCMP
 #
 $CMP TRIAC
