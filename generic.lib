@@ -1681,8 +1681,8 @@ ENDDEF
 #
 # Relay_Changeover
 #
-DEF Relay_Changeover SA 0 0 N N 2 L N
-F0 "SA" 0 225 60 H V C CNN
+DEF Relay_Changeover K 0 0 N N 2 L N
+F0 "K" 0 225 60 H V C CNN
 F1 "Relay_Changeover" 0 -200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
