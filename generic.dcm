@@ -60,6 +60,16 @@ D Depletion-mode N-MOSFET
 K MOSFET, n-channel depletion-mode metal-oxide-semiconductor field-effect transistor, МОП, n-канальный полевой транзистор с изолированным затвором обедненного типа
 $ENDCMP
 #
+$CMP NMOSFET_Dual_Gate
+D Dual Gate Enhancement-mode N-MOSFET
+K Dual gate MOSFET, n-channel field-effect transistor, МОП, n-канальный полевой транзистор с двумя изолированными затворами обогащенного типа
+$ENDCMP
+#
+$CMP NMOSFET_Dual_Gate_DE
+D Dual Gate Depletion-mode N-MOSFET
+K Dual gate MOSFET, n-channel field-effect transistor, МОП, n-канальный полевой транзистор с двумя изолированными затворами обедненного типа
+$ENDCMP
+#
 $CMP NPN
 D NPN BJT
 K BJT, NPN bipolar junction transitor, NPN биполярный транзистор
