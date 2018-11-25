@@ -1,4 +1,4 @@
-update=Сб. 23 янв. 2016 23:06:01
+update=Вс 25 ноя 2018 19:56:01
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,12 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=..
-[eeschema/libraries]
-LibName1=power
-LibName2=generic
 [schematic_editor]
 version=1
 PageLayoutDescrFile=worksheet-a4.kicad_wks
@@ -41,3 +35,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=

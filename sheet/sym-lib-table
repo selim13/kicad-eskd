@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Generic_ESKD)(type Legacy)(uri ${KIPRJMOD}/../Generic_ESKD.lib)(options "")(descr ""))
+  (lib (name Power_ESKD)(type Legacy)(uri ${KIPRJMOD}/../Power_ESKD.lib)(options "")(descr "Power symbols, special power flags"))
+)
