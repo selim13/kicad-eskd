@@ -762,11 +762,10 @@ F1 "L" 0 -75 50 H V C CNN
 F2 "" -75 0 60 H V C CNN
 F3 "" -75 0 60 H V C CNN
 $FPLIST
- R?
- R?-*
- SMD_1206
- SMD_0805
- SMD_0603
+ L_*
+ Inductor_*
+ Choke_*
+ *Coil*
 $ENDFPLIST
 DRAW
 A -187 0 62 1 1799 0 1 0 N -125 0 -250 0
@@ -786,11 +785,10 @@ F1 "L3" 0 -75 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- R?
- R?-*
- SMD_1206
- SMD_0805
- SMD_0603
+ L_*
+ Inductor_*
+ Choke_*
+ *Coil*
 $ENDFPLIST
 DRAW
 A -112 0 62 1 1799 0 1 0 N -50 0 -175 0
@@ -809,11 +807,10 @@ F1 "L3_Ferrite" 25 -75 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- R?
- R?-*
- SMD_1206
- SMD_0805
- SMD_0603
+ L_*
+ Inductor_*
+ Choke_*
+ *Coil*
 $ENDFPLIST
 DRAW
 A -112 0 62 1 1799 0 1 0 N -50 0 -175 0
@@ -860,11 +857,10 @@ F1 "L_Ferrite" 0 -75 50 H V C CNN
 F2 "" -75 0 60 H V C CNN
 F3 "" -75 0 60 H V C CNN
 $FPLIST
- R?
- R?-*
- SMD_1206
- SMD_0805
- SMD_0603
+ L_*
+ Inductor_*
+ Choke_*
+ *Coil*
 $ENDFPLIST
 DRAW
 A -187 0 62 1 1799 0 1 0 N -125 0 -250 0
