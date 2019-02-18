@@ -1463,12 +1463,7 @@ F1 "Polyfuse" 0 -200 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- R?
- R?-*
- SMD_1206
- SMD_0805
- SMD_0603
- SMD_1210
+ Fuse_*
 $ENDFPLIST
 DRAW
 T 0 -25 -125 60 0 0 0 I Italic 0 C C
