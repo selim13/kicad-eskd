@@ -81,6 +81,11 @@ D NPN BJT
 K BJT, NPN bipolar junction transitor, NPN биполярный транзистор
 $ENDCMP
 #
+$CMP Opto_NPN
+D Optocoupler NPN
+K Optocoupler NPN, Оптрон
+$ENDCMP
+#
 $CMP PJFET
 D P-JFET
 K JFET, p-channel junction gate field-effect transistor, p-канальный полевой транзистор
